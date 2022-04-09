@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    font-family: lato;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7) url('../img/back.jpg');
+}
+.welcome_text{
+    width: 400px;
+}
+.welcome_form input,
+.welcome_form button{
+    display: block;
+    width: 100%;
+}
+.welcome_form input{
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.welcome_form button{
+    font-size: 20px;
+    padding: 20px 0;
+    border: 1px solid #fa8176;
+    background-color: #fa8176;
+    color: white;
+    border-radius: 100px;
+    transition: 0.3s ease-in;
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 545;
+}
+.welcome_form button:hover{
+    transform: translate(-5px);
+    cursor: pointer;
+}
+.welcome_form input:focus,
+.welcome_form button:focus{
+    outline: none;
+}
+
+.quiz{
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 800px;
+    height: max-content;
+    background: rgba(0, 0, 0, 0.7) url("https://wallpaperaccess.com/full/2470777.jpg");
+    font-family: 'Ubuntu', sans-serif;
+    color: #b8bcce;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+.quiz_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.3);
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.7) url("../img/quiz_header.jpg");
+    background-size: 500px;
+}
+
+.quiz_body{
+    padding: 30px;
+    color: #a9a9a9;
+}
+
+.quiz_user{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.option_group{
+    list-style-type: none;
+    margin: 30px 0;
+    color: black;
+}
+
+.option{
+    background-color: #fff;
+    width: 300px;
+    padding: 15px  20px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    font-weight: 600;
+}
+
+.option:hover{
+    cursor:pointer;
+    border: 2px solid springgreen;
+}
+
+.btn_next{
+    background-color: #345ed1;
+    color: #fff;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 27px;
+}
+
+.btn_next:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #341f97;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+}
+
+.active{
+    background-color:#345ed1 ;
+    color: #fff !important;
+}
+.award_icon{
+    font-size: 300px;
+    color: white;
+}
+.user_name,
+.user_points{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+.user_times{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+.backc{
+    background: rgba(0, 0, 0, 0.7) url('../img/back.jpg');
+}
+.btn-home{
+    position: absolute;
+    top:0;
+    left:0;
+    margin: 10px;   
+    background-color: transparent;
+    border: transparent;
+    /* padding-left: 10px; */
+    background-color: white;
+    border-radius: 20px;
+  }
+.btn-home:hover{
+    transform: scale(1.02);
+}
+.win-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
