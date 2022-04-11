@@ -13,6 +13,7 @@ body{
     width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.7) url('../img/back.jpg');
+    background-size: cover;
 }
 .welcome_text{
     width: 400px;
