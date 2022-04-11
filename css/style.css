@@ -18,7 +18,7 @@ html{
 .logo img {
     width: 45%;
     border: 3px solid white;
-    border-radius: 50px;
+    border-radius: 100%;
     margin: 4px;
 }
 
